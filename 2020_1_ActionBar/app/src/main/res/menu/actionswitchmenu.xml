@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/network"
+        android:title="actionswitch"
+        myapp:showAsAction="always"
+        myapp:actionLayout="@layout/actionswitchlayout"
+        />
+
+</menu>

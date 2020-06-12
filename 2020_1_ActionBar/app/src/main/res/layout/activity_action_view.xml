@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActionView"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색식 : " />
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색결과 : " />
+    <TextView
+        android:id="@+id/textstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재상태 : 축소됨" />
+
+    <Button
+        android:id="@+id/btnexpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="확장" />
+    <Button
+        android:id="@+id/btncollapse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="축소" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="하나"
+        android:icon="@android:drawable/ic_menu_add"
+        myapp:showAsAction="always|withText"
+        />
+    <item
+        android:title="둘"
+        android:icon="@android:drawable/ic_menu_edit"
+        myapp:showAsAction="ifRoom"
+        />
+    <item
+        android:title="셋"
+        myapp:showAsAction="ifRoom"
+        />
+    <item
+        android:title="넷"
+        myapp:showAsAction="ifRoom"
+        />
+    <item
+        android:title="다섯"
+        myapp:showAsAction="ifRoom"
+        />
+    <item
+        android:title="둘"
+        myapp:showAsAction="ifRoom"
+        />
+    <item
+        android:title="여섯"
+        />
+</menu>
